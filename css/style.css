@@ -1,0 +1,29 @@
+html,
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+}
+
+header {
+    height: 300px;
+}
+
+.black {
+    background-color: #222;
+    height: 800px;
+}
+
+.parallax {
+    padding: 200px 0;
+    background-image: url(https://static.pexels.com/photos/246538/pexels-photo-246538.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h1 {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
